@@ -1,0 +1,10 @@
+    for tx in result['result']:
+        print('Transaction: {}'.format(tx['tx_id']))
+        print('Timestamp: {}'.format(tx['timestamp']))
+        print('Block: {}'.format(tx['block_id']))
+        print('From: {}'.format(tx['from_address']))
+        print('To: {}'.format(tx['to_address']))
+        print('Value: {}'.format(tx['value']))
+        print('Fee: {}'.format(tx['gas_used']))
+        print('Input: {}'.format(tx['input']))
+        print('Output: {}'.format(tx['output']))  
